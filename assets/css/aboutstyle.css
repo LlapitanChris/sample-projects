@@ -1,0 +1,134 @@
+body{
+	/*background:linear-gradient(rgba());*/
+	/*background:linear-gradient(rgba(255, 255, 255,0.5),rgba(225, 225, 225, 0.5)),url(../images/bg1.jpg);*/
+	/*background-size: cover;*/
+	/*background-position: top;*/
+	/*background-repeat: no-repeat;*/
+
+	background-color: #297559;
+	color: white;
+	font-family: 'Bungee Inline', cursive;
+}
+
+
+.headerbg{
+	background-color: #297559;
+}
+
+/*navbar font style and color of text  || Hover */
+
+.btnsactive{
+	font-size: 20px;
+	color: #297559 !important;
+	background-color: white !important;
+	/*text-shadow: 5px 5px 5px white;*/
+}
+
+.btnsnotactive{
+	font-size: 20px;
+	background-color: #297559 !important;
+	color: white !important;
+}
+
+
+/*Hover*/
+.btnsactive:hover{
+	font-weight: bolder;
+	color: #297559 !important;
+	/*text-shadow: 5px 5px 5px yellow;*/
+}
+
+
+.btnsnotactive:hover{
+	font-weight: bolder;
+	color: #297559 !important;
+	background-color: white !important;
+/*	border-left: 2px solid #297559 !important;
+border-right: 2px solid #297559 !important;*/
+}
+
+.logoicon{
+	font-size: 20px;
+	color: white !important;
+	background-color: #297559 !important;
+}
+.logoicon:hover{
+	font-weight: bolder;
+}
+/**/
+
+/*Card image size*/
+.cardimgsize{
+	height: 200px !important;
+	width: 100% !important;
+}
+
+/*Footer*/
+/*hover for footer and header*/
+.navbarhover:hover{
+	background:black !important;
+}
+/**/
+
+/*fonts*/
+.bungeeshade{
+	font-family: 'Bungee Shade', cursive;
+}
+
+.monoton{
+	font-family: 'Monoton', cursive;	
+	font-size: 30px;
+}
+.monda{
+	font-family: 'Monda', sans-serif;
+}
+
+.audiowide{
+	font-family: 'Audiowide', cursive;
+}
+
+.press2p{
+	font-family: 'Press Start 2P', cursive;
+}
+
+/**/
+
+.rowone{
+	height: 65vh;
+}
+
+.row2border{
+	padding: 48px 0px 48px 0px;
+	border-style: double;
+	border-width: 1px 0px 1px 0px;
+	border-color: white;
+}
+
+.learnmorebtn{
+	background-color: #297559 !important;
+	color:white !important;	
+}
+
+.arrowsdt{
+	font-size: 30px;
+}
+
+.abouticon{
+	font-size: 130px;
+}
+
+@media only screen and (max-width: 321px) {
+
+.abouticon{
+	font-size: 80px !important;
+}
+
+.abouttitle{
+	font-size: 21px;
+}
+
+.chroniclestitle{
+
+}
+
+}
